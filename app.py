@@ -14,7 +14,7 @@ import re
 app = Flask(__name__)
 
 # Initialize Cohere client
-co = cohere.Client('UOZf3BXp7Kc6j8uQE43Zgd901BGxobVOhxxBjCLY')  # Replace with your actual API key
+co = cohere.Client('YOUR_ACTUAL_API_KEY_HERE')  # Replace with your actual API key
 
 @app.route('/')
 def home():
